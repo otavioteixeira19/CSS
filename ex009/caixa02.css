@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+body { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: darkgrey;
+    
+}
+
+header {
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
+}
+
+main {
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px 0px;
+}
+
+footer{
+    background-color: rgb(19, 19, 18);
+    color: aliceblue;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+    border-radius: 20px 20px;
+
+footer > p {
+     margin: 0px;
+}
+
+
+}
+
+article {
+    background-color: rgba(141, 141, 141, 0.721);
+    padding: 3px;
+   border-radius: 20px 20px;
+}
+
+
+article > aside {
+    background-color: rgba(146, 146, 146, 0.797);
+    border-radius: 10px 10px;   
+}
+
+nav {
+    background-color: silver;
+    padding: 10px;
+    box-shadow: 6px 5px 4px rgba(29, 28, 28, 0.575);
+    border-radius: 20px 20px 20px 20px;
+}
+
+nav > a { 
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    margin-right: 15px;
+}
+
+.pinterest:hover {
+    color: rgba(255, 0, 0, 0.718);
+}
+
+.udemy:hover {
+    color: blueviolet;
+}
